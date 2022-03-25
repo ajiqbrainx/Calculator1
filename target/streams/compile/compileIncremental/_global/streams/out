@@ -1,0 +1,23 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/com/qbrainx/Calculator.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/com/qbrainx/Calculator.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to F:\ProjectTask\Calculator1\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.6.0:compile for Scala 2.13.8
+[debug] [zinc] Running cached compiler 39c9024e for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-Xplugin:C:\Users\user\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scoverage\scalac-scoverage-plugin_2.13\1.4.1\scalac-scoverage-plugin_2.13-1.4.1.jar
+[debug] 	-P:scoverage:dataDir:F:\ProjectTask\Calculator1\target\scala-2.13/scoverage-data
+[debug] 	-Yrangepos
+[debug] 	-bootclasspath
+[debug] 	C:\Users\user\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	F:\ProjectTask\Calculator1\target\scala-2.13\classes;C:\Users\user\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scoverage\scalac-scoverage-runtime_2.13\1.4.1\scalac-scoverage-runtime_2.13-1.4.1.jar
+[debug] Scala compilation took 9.314233489 s
+[info] done compiling
